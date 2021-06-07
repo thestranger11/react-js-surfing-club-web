@@ -1,0 +1,13 @@
+a.btn {
+    color: #333;
+    font-size: 9px;
+    font-family: "spartan-extra";
+    padding: 5px 0;
+    text-decoration: none;
+    border-bottom: 3px solid #5da8ef;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    width: fit-content;
+    margin: 15px 0;
+}

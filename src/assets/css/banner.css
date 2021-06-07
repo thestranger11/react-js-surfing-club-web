@@ -1,0 +1,42 @@
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+.banner .descriptions {
+    width: 40%;
+    margin-right: -25%;
+    z-index: 2;
+}
+.banner p {
+    color: #8f8f8f;
+    font-size: 16px;
+    line-height: 20px;
+}
+.banner .image-container {
+    width: 85%;
+    z-index: 1;
+    box-shadow: 1px 30px 20px rgba(0,0,0,.2);
+    display: flex;
+}
+.banner .image-container img {
+    width: 100%;
+}
+
+@media(max-width: 767px){
+    .banner .descriptions {
+        width: 100%;
+        margin-right: -50%;
+    }
+    .banner .image-container {
+        width: 100%;
+    }
+    .banner {
+        align-items: flex-start;
+    }
+    .banner .social-icons {
+        position: static;
+        padding: 0 3px;
+    }
+}

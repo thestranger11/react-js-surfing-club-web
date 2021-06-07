@@ -1,0 +1,41 @@
+.vlog {
+    display: flex;
+    align-items: flex-start;
+}
+.vlog .descriptions {
+    width: 50%;
+    margin-right: -10%;
+    z-index: 1;
+}
+.vlog .video-over {
+    width: 60%;
+    z-index: 2;
+    display: flex;
+    margin-top: 50px;
+}
+.vlog .video-over video {
+    height: 500px;
+    object-fit: cover;
+}
+.vlog .descriptions p {
+    color: #b2b2b2;
+    padding: 20px 22%;
+    font-size: 15px;
+    line-height: 20px;
+}
+@media(max-width: 767px){
+    .vlog {
+        flex-wrap: wrap-reverse;
+    }
+    .vlog .descriptions {
+        width: 100%;
+        margin-right: 0;
+    }
+    .vlog .video-over {
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+    .vlog .video-over video {
+        height: auto;
+    }
+}

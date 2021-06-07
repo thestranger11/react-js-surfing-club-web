@@ -1,0 +1,22 @@
+main {
+  z-index: 9;
+}
+footer {
+  padding: 10px 10px 20px;
+  background: #fff;
+}
+.stylish-title {
+  font-size: 45px;
+  color: #0b0c11;
+  margin: 15px 0;
+  font-family: "Playfair Display";
+}
+.stylish-title small {
+  text-transform: uppercase;
+  color: #5da8ef;
+  display: block;
+  font-size: 10px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  font-family: "spartan-extra";
+}

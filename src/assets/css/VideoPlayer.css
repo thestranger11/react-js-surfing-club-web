@@ -1,0 +1,54 @@
+.video-container {
+    position: relative;
+    max-width: 100%;
+}
+.video-container video {
+    max-width: 100%;
+}
+.video-container .controls {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-container .controls button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #5da8ef;
+    border: none;
+    position: relative;
+}
+.video-container .controls button:focus {
+    outline: none;
+}
+.video-container .controls button:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: "Font Awesome 5 Free";
+    color: #fff;
+    left: 0;
+    top: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.video-container .controls button.play:after {
+    content: '\f04b';
+}
+.video-container .controls button.pause:after {
+    content: '\f04c';
+}
+.video-container .controls button.pause {
+    opacity: 0;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.video-container:hover .controls button.pause {
+    opacity: 1;
+}

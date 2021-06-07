@@ -1,0 +1,28 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #CECECF;
+    padding: 3px;
+    margin: 3px 10px;
+
+}
+.social-icons>div {
+    display: inline-block;
+}
+
+.banner .social-icons {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    display: block;
+}
+.banner .social-icons>div {
+    display: block;
+}
+.banner .social-icons a {
+    margin: 16px auto 0;
+}

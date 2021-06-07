@@ -1,0 +1,60 @@
+.shop {
+    text-align: center;
+    padding: 100px 0 30px;
+    position: relative;
+}
+.shop:before {
+    content: "";
+    background: url('../img/shop-bg.png');
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    background-position: center;
+    top: -30%;
+    left: 0;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+.shop .container>.btn, .shop .stylish-title {
+    margin: 25px auto;
+}
+.shop .stylish-title small {
+    margin-bottom: -5px;
+}
+.product-slider {
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px;
+}
+.product-item {
+    display: flex !important;
+    align-items: flex-end;
+}
+.product-item img {
+    width: 70%;
+    margin-right: -10%;
+}
+.product-item .product-info {
+    padding-bottom: 100px;
+    text-align: left;
+}
+.product-item .product-info .category {
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.product-item .product-info h3 {
+    margin: 5px 0 15px;
+    font-family: "Playfair Display";
+    font-weight: normal;
+}
+.product-item .product-info .price {
+    padding-left: 35%;
+    color: #ce60a8;
+}
+.product-item .product-info .btn {
+    margin: 0 0 0 35%;
+    border-bottom: none;
+}

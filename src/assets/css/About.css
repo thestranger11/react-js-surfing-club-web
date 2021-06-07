@@ -1,0 +1,37 @@
+.about-section {
+    display: flex;
+    align-items: center;
+}
+.about-section .image-container {
+    width: 50%;
+}
+.about-section .image-container img {
+    width: 100%;
+}
+.about-section .descriptions {
+    padding: 20px;
+}
+.about-section .descriptions h3 {
+    color: #a0a0a0;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: "spartan-extra";
+    letter-spacing: 2px;
+}
+.about-section .descriptions h4 {
+    margin-left: 40px;
+    font-size: 2em;
+    max-width: 300px;
+    color: #333;
+}
+.about-section .descriptions .btn {
+    color: #5da8ef;
+}
+@media(max-width: 700px){
+    .about-section {
+        flex-wrap: wrap;
+    }
+    .about-section .image-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "spartan";
+  src: url("./assets/fonts/Spartan-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "spartan-extra";
+  src: url("./assets/fonts/Spartan-ExtraBold.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "spartan";
+  background:-webkit-repeating-linear-gradient(90deg, rgb(245,245,245) 14%, rgb(255, 255, 255) calc(14% + 2px), rgb(255, 255, 255) 32%);
+  background:-o-repeating-linear-gradient(90deg, rgb(245,245,245) 14%, rgb(255, 255, 255) calc(14% + 2px), rgb(255, 255, 255) 32%);
+  background:-moz-repeating-linear-gradient(90deg, rgb(245,245,245) 14%, rgb(255, 255, 255) calc(14% + 2px), rgb(255, 255, 255) 32%);
+  background:repeating-linear-gradient(90deg, rgb(245,245,245) 14%, rgb(255, 255, 255) calc(14% + 2px), rgb(255, 255, 255) 32%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+img {
+  max-width: 100%;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+*:focus {
+  outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+}
+p {
+  color: #616161;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+@media(max-width: 768px){
+  body {
+    background:-webkit-repeating-linear-gradient(90deg, rgb(245,245,245) 3%, rgb(255, 255, 255) calc(3% + 2px), rgb(255, 255, 255) 50%);
+    background:-o-repeating-linear-gradient(90deg, rgb(245,245,245) 3%, rgb(255, 255, 255) calc(3% + 2px), rgb(255, 255, 255) 50%);
+    background:-moz-repeating-linear-gradient(90deg, rgb(245,245,245) 3%, rgb(255, 255, 255) calc(3% + 2px), rgb(255, 255, 255) 50%);
+    background:repeating-linear-gradient(90deg, rgb(245,245,245) 3%, rgb(255, 255, 255) calc(3% + 2px), rgb(255, 255, 255) 50%);
+
+  }
+}
